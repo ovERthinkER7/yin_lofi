@@ -155,7 +155,7 @@ export default function Home({ user, setUser, setThemes, themes }) {
                                 </div>
                             </Dialog>
 
-                            {/* <div
+                            <div
                                 className="gamesButton"
                                 id="trivia_container"
                                 style={{
@@ -167,7 +167,7 @@ export default function Home({ user, setUser, setThemes, themes }) {
                                 }}
                             >
                                 💡Trivia Game
-                            </div> */}
+                            </div>
                             <SoundPlayers />
                             <Quote />
                         </div>
