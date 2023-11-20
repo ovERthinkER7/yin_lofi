@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/yin_lofi/static/css/main.42eabfdb.css",
+    "main.js": "/yin_lofi/static/js/main.2ae22ece.js",
+    "static/media/rain.mp3": "/yin_lofi/static/media/rain.799405917a540d467804.mp3",
+    "static/media/birds.mp3": "/yin_lofi/static/media/birds.e2c701deba5211efb52e.mp3",
+    "static/media/fire.mp3": "/yin_lofi/static/media/fire.ff9c156e0ed890bb9370.mp3",
+    "static/media/vending.gif": "/yin_lofi/static/media/vending.193eac47ff12eb36c34c.gif",
+    "static/media/windchime.mp3": "/yin_lofi/static/media/windchime.f0336b15a5b612e13aec.mp3",
+    "static/media/ocean.mp3": "/yin_lofi/static/media/ocean.1f0288384f202346b052.mp3",
+    "static/media/trippy.gif": "/yin_lofi/static/media/trippy.04c6480bd51398e325d5.gif",
+    "static/media/monke.gif": "/yin_lofi/static/media/monke.b6843fd29dfe1451b21e.gif",
+    "static/media/insects.mp3": "/yin_lofi/static/media/insects.988ee1e32199f981bcc4.mp3",
+    "static/media/clouds.gif": "/yin_lofi/static/media/clouds.7efe07129e7b9ab263d9.gif",
+    "static/media/leaf-cafe.gif": "/yin_lofi/static/media/leaf-cafe.bc6780b0bd40f3841b12.gif",
+    "static/media/cat.gif": "/yin_lofi/static/media/cat.cff4258d28c633581cb3.gif",
+    "static/media/room.gif": "/yin_lofi/static/media/room.4e252890b1cfd2d7afa0.gif",
+    "static/media/coffee.gif": "/yin_lofi/static/media/coffee.9fe9c7dae76555245b9f.gif",
+    "static/media/lofi.gif": "/yin_lofi/static/media/lofi.26636e860adaee9b09ed.gif",
+    "static/media/rain.gif": "/yin_lofi/static/media/rain.b0cb153302869b001510.gif",
+    "static/media/fish.gif": "/yin_lofi/static/media/fish.c6e4b182c1bd97f83280.gif",
+    "static/media/table.gif": "/yin_lofi/static/media/table.b4635ab620d037fb9a68.gif",
+    "static/media/soft_click.wav": "/yin_lofi/static/media/soft_click.3e307070c0d43972460c.wav",
+    "static/media/cursor.svg": "/yin_lofi/static/media/cursor.417da17b5bb6bce5233c.svg",
+    "index.html": "/yin_lofi/index.html",
+    "main.42eabfdb.css.map": "/yin_lofi/static/css/main.42eabfdb.css.map",
+    "main.2ae22ece.js.map": "/yin_lofi/static/js/main.2ae22ece.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42eabfdb.css",
+    "static/js/main.2ae22ece.js"
+  ]
+}
