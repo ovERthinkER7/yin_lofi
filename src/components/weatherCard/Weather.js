@@ -36,10 +36,46 @@ export default function Weather() {
         console.log(res.data);
     };
     const getLoc = async () => {
-        const res = await axios.get("https://ipapi.co/json");
-        setCurrLoc(res.data);
-        console.log(res.data);
-        getWeather(res.data.longitude, res.data.latitude);
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(
+                function (position) {
+                    // Successfully retrieved the user's location
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+
+                    // Use the latitude and longitude to fetch weather information
+                    // You can make an API request to a weather service here
+                    getWeather(longitude, latitude);
+                    console.log("Latitude: " + latitude);
+                    console.log("Longitude: " + longitude);
+                },
+                function (error) {
+                    // Handle errors
+                    switch (error.code) {
+                        case error.PERMISSION_DENIED:
+                            console.error(
+                                "User denied the request for Geolocation."
+                            );
+                            break;
+                        case error.POSITION_UNAVAILABLE:
+                            console.error(
+                                "Location information is unavailable."
+                            );
+                            break;
+                        case error.TIMEOUT:
+                            console.error(
+                                "The request to get user location timed out."
+                            );
+                            break;
+                        case error.UNKNOWN_ERROR:
+                            console.error("An unknown error occurred.");
+                            break;
+                    }
+                }
+            );
+        } else {
+            console.error("Geolocation is not supported by this browser.");
+        }
     };
     useEffect(() => {
         getLoc();
